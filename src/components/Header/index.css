@@ -14,6 +14,9 @@
     width: 35vw;
     font-size: 18px;
     display: none;
+    text-align: center;
+    margin-top: 1%;
+
 
 }
 .para-cont{
@@ -25,7 +28,7 @@
     font-size: 20px;
     letter-spacing: 0px;
 }
-.btn{
+.btnL{
     color: #0714A7;
     background-color: white;
     height: 4vh;
@@ -54,8 +57,13 @@
 
 .icon-size{
     margin-right: 3%;
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
+
+}
+.icon-size-1{
+    height: 30px;
+    width: 30px;
 
 }
 @media screen and (min-width:900px){
@@ -63,9 +71,10 @@
         display: block;
         display: flex;
     }
-    .btn{
+    .btnL{
         height: 4vh;
     width: 8vw;
+    font-size: 15px;
     }
 
 }
@@ -77,14 +86,19 @@
     .back{
         width: 100vw;
     }
-    .btn{
+    .btnL{
         width: 25vw;
         font-size: 10px;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin-top: 4%;
+        margin-bottom: 4%;
     }
     .para-cont{
         font-size: 14px;
+    }
+    .icon-size{
+        height: 22px;
+    width: 22px;
+
     }
     
 }

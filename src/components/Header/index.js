@@ -28,18 +28,10 @@ class Header extends Component{
             <Link to="/callback" className="linking">
             <p>ContactUs</p>
             </Link>
-                
-                
-                
-                
-                
-                
-                
-
             </div>
             <div className='btn-cont'>
-            <button type="button" className='btn'>
-                <IoMdContact className='icon-size' />Login/SignUp
+            <button type="button" className='btnL'>
+                <IoMdContact className='icon-size-1' />Login/SignUp
             </button>
             </div>
             

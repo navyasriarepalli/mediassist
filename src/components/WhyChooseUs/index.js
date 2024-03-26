@@ -11,7 +11,7 @@ const WhyChooseUs=()=>{
         
         <div className='why-main' >
             
-        <h1 className='why-head'>Why Choose Us?</h1>
+        <h1 className='why-head mb-4'>Why Choose Us?</h1>
         <div className="why-section">
         <div className="eachSection">
         <HiLightBulb className='why-icon' />

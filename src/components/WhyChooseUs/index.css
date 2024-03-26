@@ -27,9 +27,11 @@
 }
 .why-main{
     margin-bottom: 5px;
-    background-color: whitesmoke;
+    background-color: #BCEAEC;
     margin-right: 3%;
     margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 2% 3% 3% 3%;
 
 }
 .why-icon{

@@ -6,7 +6,10 @@ import { PiExamLight } from "react-icons/pi";
 
 const Eligibility=()=>{
     return(
+        <>
+        <h1 className='text-center mb-5'>About Course Details</h1>
         <div className='eligible-main-cont'>
+            
             <div className="eligible-cont">
                 <SlBookOpen className='eligible-icon' />
                 <div className="eligible-para">
@@ -46,6 +49,7 @@ const Eligibility=()=>{
             </div>
             
         </div>
+        </>
     )
 }
 

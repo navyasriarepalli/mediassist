@@ -14,7 +14,7 @@ const KickStart=()=>{
                 <button className="btn-2">SIGN-IN</button>
             </div>
             
-            <div className="sec" >
+            <div className="sec mt-3" >
                     <form className="form-cont" onSubmit={onSubmitEvent}>
                         <h1>Aspiring to be an ACCA?</h1>
                         <input type="text" className="each" placeholder="Name"/>

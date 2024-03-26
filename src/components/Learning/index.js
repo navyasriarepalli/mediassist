@@ -3,7 +3,7 @@ import Header from '../Header'
 const Learning=()=>{
     return(
         <div>
-            <h1 className='learn-head'>What will you learn in ACCA?</h1>
+            <h1 className='learn-head mb-3'>What will you learn in ACCA?</h1>
         <div className='learning'>
             
             <div className='each-cont'>

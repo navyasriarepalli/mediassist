@@ -5,7 +5,7 @@
     background-color:whitesmoke;
     font-family: "Roboto";
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 .descript-cont{
     width: 60vw;
@@ -18,7 +18,7 @@
     align-self: center;
     border-radius: 7%;
     background-color: white;
-    width: 28vw;
+    width: 35vw;
     padding-left:5%;
     padding-bottom: 3%;
     
@@ -96,7 +96,7 @@
 }
 .each{
     height: 4vh;
-    width: 25vw;
+    width: 29vw;
     margin-top: 10px;
     
 }
@@ -110,6 +110,18 @@
         box-shadow:10px white;
         width: 13vw;
         margin-right: 6px;
+    }
+    .form-cont{
+        align-self: center;
+        border-radius: 7%;
+        background-color: white;
+        width: 28vw;
+        padding-left:5%;
+        padding-bottom: 3%;
+        
+    }
+    .each{
+        width: 25vw;
     }
 }
 @media  screen and (max-width:600px) {
@@ -158,10 +170,11 @@
         width: 90vw;
     }
     .each{
-        width: 87vw;
+        width: 84vw;
     }
     .btn-3{
         width: 60vw;
+        font-size: 15px;
     }
     
 
