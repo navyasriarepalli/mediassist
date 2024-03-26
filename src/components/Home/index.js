@@ -120,7 +120,7 @@ const Home =()=>{
                     </div>
                 </div>
                 <div className="sec " >
-                    <form className="form-cont p-5" onSubmit={onSubmitEvent}>
+                    <form className="form-cont p-2" onSubmit={onSubmitEvent}>
                         <h3>Aspiring to be an ACCA?</h3>
                         <input type="text" className="each" value={name} onChange={onChangeName} placeholder="Name"/>
                         <input type="text" className="each" value={email} onChange={onChangeEmail} placeholder="Email"/>
