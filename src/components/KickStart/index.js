@@ -1,11 +1,36 @@
 import './index.css'
+import { useState } from 'react'
 import Popup from 'reactjs-popup'
 import Header from '../Header'
 import 'reactjs-popup/dist/index.css'
 const KickStart=()=>{
+    const [name,setName]=useState('')
+    const [email,setEmail]=useState('')
+    const [phone,setPhone]=useState('')
+    const [word,setWord]=useState('')
     const onSubmitEvent=event=>{
         event.preventDefault()
+        if(name!=="" && (email !=="" && (email.includes("@gmail.com"))) && (phone!=="" && phone.length===10)){
+            setWord("CallBack Request is Success");
+            setName("")  
+            setEmail("")
+            setPhone("")
+
+            
+        }
+        else{
+            setWord("Enter a valid information")
+            setName("")  
+            setEmail("")
+            setPhone("")
+
+        }
+        
     }
+
+    const onChangeName = (event) => setName(event.target.value);
+    const onChangeEmail = (event) => setEmail(event.target.value);
+    const onChangePhone = (event) => setPhone(event.target.value);
     return(
         <div className='last'>
             <div className='first'>
@@ -17,9 +42,9 @@ const KickStart=()=>{
             <div className="sec mt-3" >
                     <form className="form-cont" onSubmit={onSubmitEvent}>
                         <h1>Aspiring to be an ACCA?</h1>
-                        <input type="text" className="each" placeholder="Name"/>
-                        <input type="text" className="each" placeholder="Email"/>
-                        <input type="text" className="each" placeholder="Password"/>
+                        <input type="text" className="each" value={name} onChange={onChangeName} placeholder="Name"/>
+                        <input type="text" className="each" value={email} onChange={onChangeEmail} placeholder="Email"/>
+                        <input type="text" className="each" value={phone} onChange={onChangePhone} placeholder="Password"/>
                         
                         <Popup
                             modal
@@ -30,7 +55,7 @@ const KickStart=()=>{
                             {close => (
                             <div className="modal-cont">
                                 <div>
-                                <p className="sucess">CallBack Request is Success</p>
+                                <p className="sucess">{word}</p>
                                 </div>
                                 <button
                                 type="button"
