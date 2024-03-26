@@ -1,0 +1,74 @@
+.color-cont-1{
+    background-color:#0714A7;
+    color: white;
+    width: 28vw;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 13px;
+    
+}
+.color-cont-2{
+    background-color:#0714A7;
+    color: white;
+    width: 28vw;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    font-size: 22px;
+}
+.learning{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.each-cont{
+    margin-left: 3%;
+    
+}
+.learn-list{
+    
+    
+    height: 60vh;
+}
+.learn-head{
+    text-align: center;
+}
+@media screen and (min-width:900px){
+    .learn-list{
+        height:25vh ;
+    }
+    .color-cont-1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .learn-list{
+        height: auto;
+        
+
+    }
+    .learning{
+        display: flex;
+        flex-direction: column;
+    }
+    .each-cont{
+        width: 85vw;
+        margin-bottom: 3%;
+
+    }
+    .color-cont-1{
+        width: 85vw;
+        font-size: 12px;
+
+    }
+    .color-cont-2{
+        width: 85vw;
+        font-size: 16px;
+    }
+    
+}
